@@ -5,6 +5,9 @@ import {HtmlAccessibility} from "@/components/htmlComponents/HtmlAccessibility";
 import {SeoBasics} from "@/components/htmlComponents/SeoBasics";
 import {CssBasics} from "@/components/cssComponents/CssBasics";
 import {CssIntegration} from "@/components/cssComponents/CssIntegration";
+import {CssCascadeSpecificity} from "@/components/cssComponents/CssCascadeSpecificity";
+import {BemMethodology} from "@/components/cssComponents/BemMethodology";
+import {CssPseudoClassesElements} from "@/components/cssComponents/CssPseudoClassesElements";
 
 export const sections: Section[] = [
     {
@@ -46,6 +49,21 @@ export const sections: Section[] = [
                 id: 'css-integration',
                 label: 'Подключение CSS',
                 content: CssIntegration
+            },
+            {
+                id: 'css-cascade',
+                label: 'Каскадность и приоритеты селекторов',
+                content: CssCascadeSpecificity
+            },
+            {
+                id: 'css-bem',
+                label: 'Методология БЭМ',
+                content: BemMethodology
+            },
+            {
+                id: 'css-pseudo',
+                label: 'Псевдоклассы и псевдоэлементы',
+                content: CssPseudoClassesElements
             }
         ]
     }
