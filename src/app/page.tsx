@@ -3,43 +3,8 @@
 import React, { useState } from 'react';
 import { Sidebar } from '@/components/Sidebar';
 import { ContentArea } from '@/components/ContentArea';
-import {HtmlBasics} from "@/components/HtmlBasics";
-import {Section, Topic} from "@/types/types";
-
-const sections: Section[] = [
-    {
-        id: 'html',
-        title: 'HTML',
-        topics: [
-            {
-                id: 'html-basics',
-                label: 'Основы HTML',
-                content: HtmlBasics
-            },
-            /*{
-                id: 'html-semantics',
-                label: 'Семантическая верстка',
-                content: 'Семантическая верстка - это подход к написанию HTML, который делает акцент на значении содержимого...'
-            }*/
-        ]
-    },
-    /*{
-        id: 'css',
-        title: 'CSS',
-        topics: [
-            {
-                id: 'css-basics',
-                label: 'Основы CSS',
-                content: 'CSS (Cascading Style Sheets) - это язык стилей, который используется для описания внешнего вида документа...'
-            },
-            {
-                id: 'css-flexbox',
-                label: 'Flexbox',
-                content: 'Flexbox - это одномерный метод компоновки, который позволяет располагать элементы в строке или столбце...'
-            }
-        ]
-    }*/
-];
+import {sections} from "@/data/sections";
+import {Topic} from "@/types/types";
 
 export default function Home() {
     const [selectedTopic, setSelectedTopic] = useState<Topic | null>(null);
