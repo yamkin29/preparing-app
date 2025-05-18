@@ -1,5 +1,5 @@
 import {Section} from "@/types/types";
-import {HtmlBasics} from "@/components/HtmlBasics";
+import {HtmlBasics} from "@/components/htmlComponents/HtmlBasics";
 
 export const sections: Section[] = [
     {

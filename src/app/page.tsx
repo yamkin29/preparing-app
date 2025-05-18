@@ -1,8 +1,8 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Sidebar } from '@/components/Sidebar';
-import { ContentArea } from '@/components/ContentArea';
+import { Sidebar } from '@/components/mainComponents/Sidebar';
+import { ContentArea } from '@/components/mainComponents/ContentArea';
 import {sections} from "@/data/sections";
 import {Topic} from "@/types/types";
 
