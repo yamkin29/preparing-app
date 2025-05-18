@@ -1,17 +1,5 @@
-// components/Sidebar.js
 import React from 'react';
-
-interface Topic {
-    id: string;
-    label: string;
-    content: string;
-}
-
-interface Section {
-    id: string;
-    title: string;
-    topics: Topic[];
-}
+import {Section, Topic} from "@/types/types";
 
 interface SidebarProps {
     sections: Section[];

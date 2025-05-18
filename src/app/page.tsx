@@ -1,20 +1,10 @@
 'use client';
 
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { Sidebar } from '@/components/Sidebar';
 import { ContentArea } from '@/components/ContentArea';
-
-interface Topic {
-    id: string;
-    label: string;
-    content: string;
-}
-
-interface Section {
-    id: string;
-    title: string;
-    topics: Topic[];
-}
+import {HtmlBasics} from "@/components/HtmlBasics";
+import {Section, Topic} from "@/types/types";
 
 const sections: Section[] = [
     {
@@ -24,16 +14,16 @@ const sections: Section[] = [
             {
                 id: 'html-basics',
                 label: 'Основы HTML',
-                content: 'HTML (HyperText Markup Language) - это стандартный язык разметки для создания веб-страниц...'
+                content: HtmlBasics
             },
-            {
+            /*{
                 id: 'html-semantics',
                 label: 'Семантическая верстка',
                 content: 'Семантическая верстка - это подход к написанию HTML, который делает акцент на значении содержимого...'
-            }
+            }*/
         ]
     },
-    {
+    /*{
         id: 'css',
         title: 'CSS',
         topics: [
@@ -48,7 +38,7 @@ const sections: Section[] = [
                 content: 'Flexbox - это одномерный метод компоновки, который позволяет располагать элементы в строке или столбце...'
             }
         ]
-    }
+    }*/
 ];
 
 export default function Home() {
