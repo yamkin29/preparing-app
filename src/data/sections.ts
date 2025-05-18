@@ -1,5 +1,10 @@
 import {Section} from "@/types/types";
 import {HtmlBasics} from "@/components/htmlComponents/HtmlBasics";
+import {HtmlSemantics} from "@/components/htmlComponents/HtmlSemantics";
+import {HtmlAccessibility} from "@/components/htmlComponents/HtmlAccessibility";
+import {SeoBasics} from "@/components/htmlComponents/SeoBasics";
+import {CssBasics} from "@/components/cssComponents/CssBasics";
+import {CssIntegration} from "@/components/cssComponents/CssIntegration";
 
 export const sections: Section[] = [
     {
@@ -11,27 +16,37 @@ export const sections: Section[] = [
                 label: 'Основы HTML',
                 content: HtmlBasics
             },
-            /*{
+            {
                 id: 'html-semantics',
                 label: 'Семантическая верстка',
-                content: 'Семантическая верстка - это подход к написанию HTML, который делает акцент на значении содержимого...'
-            }*/
+                content: HtmlSemantics
+            },
+            {
+                id: 'html-accessibility',
+                label: 'Семантическая верстка',
+                content: HtmlAccessibility
+            },
+            {
+                id: 'html-ceo',
+                label: 'CEO',
+                content: SeoBasics
+            }
         ]
     },
-    /*{
+    {
         id: 'css',
         title: 'CSS',
         topics: [
             {
                 id: 'css-basics',
                 label: 'Основы CSS',
-                content: 'CSS (Cascading Style Sheets) - это язык стилей, который используется для описания внешнего вида документа...'
+                content: CssBasics
             },
             {
-                id: 'css-flexbox',
-                label: 'Flexbox',
-                content: 'Flexbox - это одномерный метод компоновки, который позволяет располагать элементы в строке или столбце...'
+                id: 'css-integration',
+                label: 'Подключение CSS',
+                content: CssIntegration
             }
         ]
-    }*/
+    }
 ];
