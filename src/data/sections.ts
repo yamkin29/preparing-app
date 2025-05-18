@@ -8,6 +8,10 @@ import {CssIntegration} from "@/components/cssComponents/CssIntegration";
 import {CssCascadeSpecificity} from "@/components/cssComponents/CssCascadeSpecificity";
 import {BemMethodology} from "@/components/cssComponents/BemMethodology";
 import {CssPseudoClassesElements} from "@/components/cssComponents/CssPseudoClassesElements";
+import {CssFlexbox} from "@/components/cssComponents/CssFlexbox";
+import {CssGrid} from "@/components/cssComponents/CssGrid";
+import {CssPositioning} from "@/components/cssComponents/CssPositioning";
+import {CssStyling} from "@/components/cssComponents/CssStyling";
 
 export const sections: Section[] = [
     {
@@ -64,6 +68,26 @@ export const sections: Section[] = [
                 id: 'css-pseudo',
                 label: 'Псевдоклассы и псевдоэлементы',
                 content: CssPseudoClassesElements
+            },
+            {
+                id: 'css-flexbox',
+                label: 'Flexbox',
+                content: CssFlexbox
+            },
+            {
+                id: 'css-grid',
+                label: 'CSS Grid',
+                content: CssGrid
+            },
+            {
+                id: 'css-positioning',
+                label: 'Позиционирование элементов',
+                content: CssPositioning
+            },
+            {
+                id: 'css-styling',
+                label: 'Стилизация элементов',
+                content: CssStyling
             }
         ]
     }
