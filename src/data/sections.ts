@@ -30,7 +30,7 @@ export const sections: Section[] = [
             },
             {
                 id: 'html-accessibility',
-                label: 'Семантическая верстка',
+                label: 'Веб-доступность',
                 content: HtmlAccessibility
             },
             {
@@ -71,7 +71,7 @@ export const sections: Section[] = [
             },
             {
                 id: 'css-flexbox',
-                label: 'Flexbox',
+                label: 'CSS Flexbox',
                 content: CssFlexbox
             },
             {
