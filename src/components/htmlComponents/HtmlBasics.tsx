@@ -64,7 +64,7 @@ export const HtmlBasics: React.FC = () => (
             <p className="text-gray-600">HTML5 ввёл семантические теги, чтобы сделать структуру страницы более осмысленной:</p>
             <ul className="space-y-4 text-gray-600">
                 <li>
-                    <strong className="text-gray-800 block mb-2">Секции и обёртки</strong>:
+                    <strong className="text-gray-800 block mb-2">Секции и обёртки:</strong>
                     <ul className="list-disc list-inside ml-6 space-y-2">
                         <li><code className="bg-gray-100 px-1 rounded">&lt;header&gt;</code> — шапка страницы или раздела;</li>
                         <li><code className="bg-gray-100 px-1 rounded">&lt;nav&gt;</code> — навигационные ссылки;</li>
@@ -76,7 +76,7 @@ export const HtmlBasics: React.FC = () => (
                     </ul>
                 </li>
                 <li>
-                    <strong className="text-gray-800 block mb-2">Мультимедиа</strong>:
+                    <strong className="text-gray-800 block mb-2">Мультимедиа:</strong>
                     <ul className="list-disc list-inside ml-6 space-y-2">
                         <li><code className="bg-gray-100 px-1 rounded">&lt;audio&gt;</code> — аудио-контент;</li>
                         <li><code className="bg-gray-100 px-1 rounded">&lt;video&gt;</code> — видеоконтент;</li>
@@ -85,7 +85,7 @@ export const HtmlBasics: React.FC = () => (
                     </ul>
                 </li>
                 <li>
-                    <strong className="text-gray-800 block mb-2">Формы</strong>:
+                    <strong className="text-gray-800 block mb-2">Формы:</strong>
                     <ul className="list-disc list-inside ml-6 space-y-2">
                         <li><code className="bg-gray-100 px-1 rounded">&lt;form&gt;</code> — контейнер формы;</li>
                         <li><code className="bg-gray-100 px-1 rounded">&lt;input&gt;</code> — текст, email, пароль и т. д.;</li>
@@ -96,7 +96,7 @@ export const HtmlBasics: React.FC = () => (
                     </ul>
                 </li>
                 <li>
-                    <strong className="text-gray-800 block mb-2">Текстовые и медиа-обёртки</strong>:
+                    <strong className="text-gray-800 block mb-2">Текстовые и медиа-обёртки:</strong>
                     <ul className="list-disc list-inside ml-6 space-y-2">
                         <li><code className="bg-gray-100 px-1 rounded">&lt;p&gt;</code> — параграф;</li>
                         <li><code className="bg-gray-100 px-1 rounded">&lt;h1&gt;…&lt;h6&gt;</code> — заголовки разного уровня;</li>
@@ -108,7 +108,7 @@ export const HtmlBasics: React.FC = () => (
                     </ul>
                 </li>
                 <li>
-                    <strong className="text-gray-800 block mb-2">Списки и таблицы</strong>:
+                    <strong className="text-gray-800 block mb-2">Списки и таблицы:</strong>
                     <ul className="list-disc list-inside ml-6 space-y-2">
                         <li><code className="bg-gray-100 px-1 rounded">&lt;ul&gt;</code>, <code className="bg-gray-100 px-1 rounded">&lt;ol&gt;</code>, <code className="bg-gray-100 px-1 rounded">&lt;li&gt;</code> — списки;</li>
                         <li><code className="bg-gray-100 px-1 rounded">&lt;table&gt;</code>, <code className="bg-gray-100 px-1 rounded">&lt;thead&gt;</code>, <code className="bg-gray-100 px-1 rounded">&lt;tbody&gt;</code>, <code className="bg-gray-100 px-1 rounded">&lt;tr&gt;</code>, <code className="bg-gray-100 px-1 rounded">&lt;th&gt;</code>, <code className="bg-gray-100 px-1 rounded">&lt;td&gt;</code> — таблицы.</li>
