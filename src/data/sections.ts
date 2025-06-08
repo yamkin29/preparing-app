@@ -12,6 +12,7 @@ import {CssFlexbox} from "@/components/cssComponents/CssFlexbox";
 import {CssGrid} from "@/components/cssComponents/CssGrid";
 import {CssPositioning} from "@/components/cssComponents/CssPositioning";
 import {CssStyling} from "@/components/cssComponents/CssStyling";
+import {ResponsiveDesign} from "@/components/cssComponents/ResponsiveDesign";
 
 export const sections: Section[] = [
     {
@@ -88,6 +89,11 @@ export const sections: Section[] = [
                 id: 'css-styling',
                 label: 'Стилизация элементов',
                 content: CssStyling
+            },
+            {
+                id: 'css-responsive',
+                label: 'Адаптивный дизайн',
+                content: ResponsiveDesign
             }
         ]
     }
