@@ -13,6 +13,7 @@ import {CssGrid} from "@/components/cssComponents/CssGrid";
 import {CssPositioning} from "@/components/cssComponents/CssPositioning";
 import {CssStyling} from "@/components/cssComponents/CssStyling";
 import {ResponsiveDesign} from "@/components/cssComponents/ResponsiveDesign";
+import {CssAnimation} from "@/components/cssComponents/CssAnimation";
 
 export const sections: Section[] = [
     {
@@ -94,6 +95,11 @@ export const sections: Section[] = [
                 id: 'css-responsive',
                 label: 'Адаптивный дизайн',
                 content: ResponsiveDesign
+            },
+            {
+                id: 'css-animation',
+                label: 'CSS анимации',
+                content: CssAnimation
             }
         ]
     }
