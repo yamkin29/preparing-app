@@ -14,6 +14,9 @@ import {CssPositioning} from "@/components/cssComponents/CssPositioning";
 import {CssStyling} from "@/components/cssComponents/CssStyling";
 import {ResponsiveDesign} from "@/components/cssComponents/ResponsiveDesign";
 import {CssAnimation} from "@/components/cssComponents/CssAnimation";
+import {CssDevTools} from "@/components/cssComponents/CssDevTools";
+import {CssPreprocessors} from "@/components/cssComponents/CssPreprocessors";
+import {GitGuide} from "@/components/gitComponents/GitGuide";
 
 export const sections: Section[] = [
     {
@@ -100,6 +103,27 @@ export const sections: Section[] = [
                 id: 'css-animation',
                 label: 'CSS анимации',
                 content: CssAnimation
+            },
+            {
+                id: 'css-devtools',
+                label: 'Отладка CSS в DevTools',
+                content: CssDevTools
+            },
+            {
+                id: 'css-preprocessors',
+                label: 'Препроцессоры CSS (Sass/SCSS)',
+                content: CssPreprocessors
+            }
+        ]
+    },
+    {
+        id: 'git',
+        title: 'Git',
+        topics: [
+            {
+                id: 'git-guide',
+                label: 'Основы работы с Git',
+                content: GitGuide
             }
         ]
     }
